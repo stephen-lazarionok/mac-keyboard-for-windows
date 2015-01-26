@@ -1,7 +1,7 @@
 ;
 ; Apple shortcuts for Windows.
 ;
-; Stephen Lazarionok.
+; Stephen Lazarionok, 2015.
 ;
 
 ;****************************************
@@ -105,15 +105,13 @@ WheelDown::Send {WheelUp}
 #z:: Send ^{z}
 #+z:: Send ^+{z}
 
-
-; A special shortcut for Sublime Text 2/3
-#+p::Send ^+{p}
-
 ; Cmd + H => minimize(hide) the active application
 #h::WinMinimize, A
 
 ; Cmd + Q => quit the active application
 #q::Send !{F4}
+
+; Does not work in Windows 8
 #Tab::Send !{Tab}
 
 ; Disable single windows key

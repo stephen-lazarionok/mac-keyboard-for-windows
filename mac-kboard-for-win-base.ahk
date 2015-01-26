@@ -1,7 +1,7 @@
 ;
 ; Apple shortcuts for Windows.
 ;
-; Stephen Lazarionok.
+; Stephen Lazarionok, 2015.
 ;
 
 ;****************************************
